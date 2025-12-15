@@ -92,4 +92,7 @@ The details of the mathematics can be found in the [above paper](https://www.sci
 #### The integer we compute
 
 After we construct the sheaf topos, we define a simple type theory and we interpret it in the topos. We define a "function" $(\mathbb{N} \to 2) \to \mathbb{N}$ in this type theory, without proving that it is uniformly continuous, and apply the interpretation map to get a morphism of the topos, which amounts to a uniformly continuous function. From this morphism we get the modulus of uniform continuity, which is the integer we are interested in.
+
+Of course, it is 42. Just kidding, it is actually zero, but Andrej's suggestion that we should have computed 42 is more fitting.
+
 The interested reader can find the details in the [above paper](https://www.sciencedirect.com/science/article/pii/S0168007216300410) and [Agda code for the paper](http://www.cs.bham.ac.uk/~mhe/papers/kleene-kreisel/) or the substantially more comprehensive [Agda code](http://cj-xu.github.io/ContinuityType/) for [Chuangjie's thesis](http://cj-xu.github.io/ContinuityType/xu-thesis.pdf).
